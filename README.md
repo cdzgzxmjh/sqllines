@@ -4,6 +4,8 @@ SQLines SQL Converter is an open source tool (Apache License 2.0) that allows yo
 
 You can also try it online at http://www.sqlines.com/online
 
+> [中文版](README_zh.md)
+
 ## Supported Conversions
 
 Source dialects: `oracle`, `mysql`, `postgresql`, `sqlserver`, `db2`, `sybase`, `informix`, `teradata`, `greenplum`, `netezza`
