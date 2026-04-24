@@ -1,0 +1,5 @@
+﻿CREATE TABLE t1 (
+    id BIGINT PRIMARY KEY,
+    name VARCHAR(100),
+    created_date DATETIME DEFAULT SYSDATE()
+);

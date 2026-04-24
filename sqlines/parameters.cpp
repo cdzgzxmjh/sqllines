@@ -81,7 +81,7 @@ int Parameters::LoadString(const char *input)
 		}
 
 		// Get the parameter name until = or new line
-		while(*cur && *cur != '=' && *cur && '\r' && *cur != '\n' && *cur != '\t')
+		while(*cur && *cur != '=' && *cur != '\r' && *cur != '\n' && *cur != '\t' && *cur != ' ')
 		{
 			// Check for parameter without value
 			if(*cur == PARAMETER_START_TOKEN && name.empty() == false)

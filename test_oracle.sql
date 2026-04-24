@@ -1,0 +1,5 @@
+﻿CREATE TABLE t1 (
+    id NUMBER(10) PRIMARY KEY,
+    name VARCHAR2(100),
+    created_date DATE DEFAULT SYSDATE
+);
